@@ -1,0 +1,40 @@
+.name 
+{
+    text-align:left;
+    color:#000000;
+    width:2000px;
+    font-family:Arial;
+    font-size: 81px;
+}
+
+.Logo
+{
+    align:right;
+}
+
+.table1
+{
+  background-color:#D0E0F4;   
+}
+
+.search_bar
+{
+    /* ... */   
+}
+
+.dialogue
+{
+    position:fixed;
+    margin-top:-30px;
+}
+
+body
+{
+    background: url("http://i.imgur.com/d2Ugyi4.jpg") repeat-x;
+    background-color: #fff;
+}
+
+#search_bar_table
+{
+    position:center;
+}
