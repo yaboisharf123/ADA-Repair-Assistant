@@ -1,33 +1,25 @@
+@charset "utf-8";
 body{
-
-	background:red;
-	/*margin: 0;*/
-}
-/*
-#container{
-	height: 1100px;
-	width: 100%;
+	margin: 0;
 	background: url(http://i.imgur.com/yDp6798.png);
 	background-attachment: fixed;
+}
+
+#wrap{
+	margin: auto;
+	width: 1000px;
 	position: relative;
 }
 #top{
 	height: 140px;
 	width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
 	background-color: #2F353B;
 	padding: 20px 0px 20px 0px;
-	margin: 0;
-	position: absolute;
-	left:25%;
 	border-radius: 20px;	
 }
 #topbox{
 	height: 140px;
 	width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
 	background-color: #0A0A0A;
 	position: absolute;	
 }
@@ -49,14 +41,12 @@ body{
 	/*
 	width: 560px;
 	height: 602px;*/
+	margin-top: 20px;
 	width: 357px;
 	height: 400px;
-	float: left;
-	margin-top:300px;
-	margin-left: 25%;
-	position: absolute;
 	background-color: #2F353B;
 	border-radius: 10px;
+	float: left;
 }
 #ada{
 	width: 100%;
@@ -65,10 +55,12 @@ body{
 }
 #searchdiv{
 	width: 600px;
-	height: 50px;
-	margin-top: 450px;
-	margin-left: 45%;
-	position: absolute;
+	float: right;
+	margin-top: 180;
+}
+#results {
+	width: 600px;
+	margin-left: 25%;
 }
 .innerdiv{
 	width: 600px;
@@ -145,16 +137,23 @@ body{
 }
 
 #copy{
-	clear: both;
 	color: #BABABA;
 	font-family:Arial;
 	font-size: 12px;
-	margin-top: 950px;
-	margin-left: 25%;
-	position: absolute;	
-	width: 70%;	
+	padding: 5px;
+	clear: both;
 }
-
-
-
-
+.searchresults {
+	height:160px;
+	width:600px;
+	color: #eee;
+	border: 1px solid #ccc;
+	overflow:auto;
+}
+.searchresults a {
+	font-size: 28px;
+	color: orange;
+}
+h1, h2, h3 {
+	color: #99aabb;
+}
