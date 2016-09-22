@@ -59,8 +59,7 @@ body{
 	margin-top: 180;
 }
 #results {
-	width: 600px;
-	margin-left: 25%;
+	width: 1000px;
 }
 .innerdiv{
 	width: 600px;
@@ -145,7 +144,7 @@ body{
 }
 .searchresults {
 	height:160px;
-	width:600px;
+	width:1000px;
 	color: #eee;
 	border: 1px solid #ccc;
 	overflow:auto;
