@@ -1,7 +1,9 @@
 body{
-	margin: 0;
-}
 
+	background:red;
+	/*margin: 0;*/
+}
+/*
 #container{
 	height: 1100px;
 	width: 100%;
