@@ -1,33 +1,25 @@
+@charset "utf-8";
 body{
-
-	background:red;
-	/*margin: 0;*/
-}
-/*
-#container{
-	height: 1100px;
-	width: 100%;
+	margin: 0;
 	background: url(http://i.imgur.com/yDp6798.png);
 	background-attachment: fixed;
+}
+
+#wrap{
+	margin: auto;
+	width: 1000px;
 	position: relative;
 }
 #top{
 	height: 140px;
 	width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
 	background-color: #2F353B;
 	padding: 20px 0px 20px 0px;
-	margin: 0;
-	position: absolute;
-	left:25%;
 	border-radius: 20px;	
 }
 #topbox{
 	height: 140px;
 	width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
 	background-color: #0A0A0A;
 	position: absolute;	
 }
@@ -41,22 +33,47 @@ body{
 	float: left;
 }
 #logo{
+	height:70%;
 	float: right;
 	margin-right: 45px;
 	border-radius: 10px;
+	position:relative;
+		top:35px;
 }
+#social {
+	width: 200px;
+	position:relative;
+	float:right;
+		left:200px;
+		top:-80px;
+}
+#social ul {
+	margin: 0;
+	padding: 0;
+}
+#social li
+{
+	height: 25px;
+	display:inline-block;
+	list-style-type:none;
+	padding-left:15px;
+	
+}
+a:visited
+{
+	color:white;
+}
+
 #adadiv{
 	/*
 	width: 560px;
 	height: 602px;*/
+	margin-top: 20px;
 	width: 357px;
 	height: 400px;
-	float: left;
-	margin-top:300px;
-	margin-left: 25%;
-	position: absolute;
 	background-color: #2F353B;
 	border-radius: 10px;
+	float: left;
 }
 #ada{
 	width: 100%;
@@ -65,10 +82,12 @@ body{
 }
 #searchdiv{
 	width: 600px;
-	height: 50px;
-	margin-top: 450px;
-	margin-left: 45%;
-	position: absolute;
+	float: right;
+	position:relative;
+		top:100px;
+}
+#results {
+	width: 1000px;
 }
 .innerdiv{
 	width: 600px;
@@ -145,16 +164,60 @@ body{
 }
 
 #copy{
-	clear: both;
-	color: #BABABA;
+	width:1000px;
+	color: #444;
+	position:relative;
+		top:250px;
 	font-family:Arial;
 	font-size: 12px;
-	margin-top: 950px;
-	margin-left: 25%;
-	position: absolute;	
-	width: 70%;	
+	padding: 5px;
+	clear: both;
+	text-align: center;
 }
 
+#copy ul
+{
+	overflow:hidden;
+	margin:0;
+	padding:0;
+}
 
+#copy li
+{
+	display:inline;
+	list-style-type:none;
+	padding:20px 20px 20px 20px;
+}
+.searchresults {
+	height:160px;
+	width:1000px;
+	color: #eee;
+	border: 1px solid #ccc;
+	overflow:auto;
+}
+.searchresults a {
+	font-size: 28px;
+	color: orange;
+}
 
+#copy a
+{
+	font-family: 'Comic Sans MS';
+	text-decoration:none;
+	color: #BABABA;
+}
 
+#copy a:hover
+{
+	color:#2F353B;
+	background:white;
+}
+
+#about
+{
+	float:right;
+}
+
+h1, h2, h3 {
+	color: #99aabb;
+}
