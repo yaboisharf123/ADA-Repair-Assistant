@@ -1,13 +1,13 @@
 body{
 
-	background:red;
+	
+	background: url(http://i.imgur.com/yDp6798.png);
 	/*margin: 0;*/
 }
-/*
+
 #container{
 	height: 1100px;
-	width: 100%;
-	background: url(http://i.imgur.com/yDp6798.png);
+	width: 100%;	
 	background-attachment: fixed;
 	position: relative;
 }
@@ -40,10 +40,23 @@ body{
 	width: 450px;
 	float: left;
 }
+
 #logo{
-	float: right;
+	width:15%;
+	height:75%;
 	margin-right: 45px;
 	border-radius: 10px;
+	position:absolute;
+		top:22.5%;
+		left:75%;
+}
+
+#social
+{
+
+	position:absolute;
+		top:-5%;
+		left:72%;
 }
 #adadiv{
 	/*
@@ -125,7 +138,7 @@ body{
     background: #232833;
     height: 50px;
     width: 50px;
-    color: #white;
+    color: white;
     opacity: 0;
     font-size: 10pt;
  
@@ -144,6 +157,12 @@ body{
 	background:white;
 }
 
+#foot
+{
+	background:yellow;
+	position:relative;
+}
+
 #copy{
 	clear: both;
 	color: #BABABA;
@@ -155,6 +174,23 @@ body{
 	width: 70%;	
 }
 
+li
+{
+	display:inline;
+	list-style-type:none;
+}
+
+a
+{
+	color:white;
+}
 
 
+#ya
+{
+	color:#444;
+}
+#icon{
+	padding: 0px 8px 0px 8px;
+}
 
