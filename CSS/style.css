@@ -1,9 +1,6 @@
 body{
-
-	background:red;
-	/*margin: 0;*/
+	margin:0;
 }
-/*
 #container{
 	height: 1100px;
 	width: 100%;
@@ -46,7 +43,6 @@ body{
 	border-radius: 10px;
 }
 #adadiv{
-	/*
 	width: 560px;
 	height: 602px;*/
 	width: 357px;
